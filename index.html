@@ -33,12 +33,19 @@
 <img alt="selection screen" src="screenshots/WIN_20260919_11_56_53_Pro.jpg" />
 <img alt="Created Qr Code Screen" src="screenshots/WIN_20260919_11_57_19_Pro.jpg" />
 <img alt="saved to sd card" src="screenshots/saved.jpg" />
-<p></p>Third-party code included</p>
-`source/qrcodegen.c/h` - Nayuki's QR Code generator library (MIT license).
-This is the same QR library used by the MiiPort homebrew project.
-`source/aes.c/h` - tiny-AES-c (public domain / Unlicense), used only for
-its raw AES-128 block primitive; the actual CCM logic on top of it is
-hand-written to match the 3DS's specific implementation.
+<section class="third-party-credits">
+  <h3>Third-Party Code</h3>
+  <ul>
+    <li>
+      <strong><code>source/qrcodegen.c/h</code></strong> &ndash; Nayuki's QR Code generator library (MIT License). 
+      <em>Used by the MiiPort homebrew project.</em>
+    </li>
+    <li>
+      <strong><code>source/aes.c/h</code></strong> &ndash; tiny-AES-c (Public Domain / Unlicense). 
+      Used for its raw AES-128 block primitive; custom CCM logic is implemented on top to match the 3DS specification.
+    </li>
+  </ul>
+</section>
 
 </body>
 
