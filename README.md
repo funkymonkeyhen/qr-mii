@@ -2,7 +2,7 @@
 <p>This is a project where you can make Mii QR Codes from your wii</p>
 <hr>
 <h2>Step 1</h2>
-<p>Download the latest release (The zip file under Assets)</p>
+<p>Download the latest release (The zip file under Assets) <a href="https://github.com/funkymonkeyhen/qr-mii/releases/download/beta/qr-mii.zip"> or click here</a></p>
 <h2>Step 2</h2>
 <p>Extract the zip file</p>
 <h2>Step 3</h2>
